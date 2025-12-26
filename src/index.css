@@ -1,0 +1,85 @@
+@font-face {
+  font-family:'Montserrat';
+  src: url('/fonts/Montserrat-Light.woff2');
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family:'Montserrat';
+  src: url('/fonts/Montserrat-Medium.woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family:'Cinzel';
+  src: url('/fonts/Cinzel-Bold.woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family:'Cinzel';
+  src: url('/fonts/Cinzel-Black.woff2');
+  font-weight: 900;
+  font-display: swap;
+}
+:root{
+  --font-title : 'Cinzel' , serif ;
+  --font-body : 'Montserrat' , sans-serif ;
+  --color-bg : #050505;
+  --color-bg-deep : #0b0b1e;
+  --text-color-main : #f0f4f8;
+  --text-color-muted : #8b9bb4;
+  --color-accent-gold : #ffae00;
+  --color-accent-cyan: #00f0ff;
+  /* Ui */
+  --color-border : rgba(255, 255, 255, 0.1);
+  --color-glass-bg: rgba(11, 11, 30, 0.6);
+  --glass-blur: blur(12px);
+  --shadow-soft: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  /* Sizes */
+  --h1-size: 4rem;
+  --h2-size: 2.5rem;
+  --p-size: 1rem;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+body , #root{
+  width: 100%;
+  height: 100dvh;
+  overflow-x:hidden;
+  background-color: var(--color-bg2);
+  color: var(--text-color);
+  font-family: var(--font-body);
+}
+
+/* --- Typography Setup --- */
+h1, h2, h3 {
+  font-family: var(--font-title);
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+h1 {
+  font-size: var(--h1-size);
+  color: var(--color-accent-gold);
+  text-shadow: 0 0 20px rgba(255, 174, 0, 0.3);
+}
+h2 {
+  font-size: var(--h2-size);
+}
+p {
+  font-size: var(--p-size);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  max-width: 60ch;
+}
+canvas{
+  touch-action: none;
+  outline: none;
+}
