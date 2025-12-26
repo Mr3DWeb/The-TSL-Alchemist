@@ -1,8 +1,12 @@
+import Overlay from "./components/UI/Overlay";
+import Scene from "./components/Canvas/Scene";
+
 function App() {
 
   return (
     <>
-      <h1>heelo</h1>
+    
+      <Overlay />
     </>
   )
 }
