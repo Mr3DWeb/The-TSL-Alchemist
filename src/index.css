@@ -11,20 +11,19 @@
   font-display: swap;
 }
 @font-face {
-  font-family:'Cinzel';
-  src: url('/fonts/Cinzel-Bold.woff2');
+  font-family:'Montserrat';
+  src: url('/fonts/Montserrat-Bold.woff2');
   font-weight: 700;
   font-display: swap;
 }
 @font-face {
-  font-family:'Cinzel';
-  src: url('/fonts/Cinzel-Black.woff2');
+  font-family:'Montserrat';
+  src: url('/fonts/Montserrat-Black.woff2');
   font-weight: 900;
   font-display: swap;
 }
 :root{
-  --font-title : 'Cinzel' , serif ;
-  --font-body : 'Montserrat' , sans-serif ;
+  --font-family : 'Montserrat' , sans-serif ;
   --color-bg : #0b0b1e;
   --color-bg-deep : #050505;
   --text-color-main : #f0f4f8;
@@ -55,12 +54,12 @@ body , #root{
   overflow-x:hidden;
   background-color: var(--color-bg-deep);
   color: var(--text-color-main);
-  font-family: var(--font-body);
+  font-family: var(--font-family);
 }
 
 /* --- Typography Setup --- */
 h1, h2, h3 {
-  font-family: var(--font-title);
+  font-family: var(--font-family);
   line-height: 1.2;
   text-transform: uppercase;
   letter-spacing: 0.05em;
