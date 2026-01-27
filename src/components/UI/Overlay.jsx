@@ -1,19 +1,17 @@
-import HeroSection from './Sections/Hero/HeroSection';
-import ScentSection from './Sections/Scent/ScentSection';
-import PersonaSection from './Sections/Persona/PersonaSection';
-import CTASection from './Sections/CTA/CTASection';
+
 import './Overlay.css';
 
 
-function Overlay(){
+function Overlay({ref}){
+
   return(
-    <main id='Overlay'>
-      <HeroSection />
-      <ScentSection />
-      <PersonaSection />
-      <CTASection />
+    <main ref={ref} id='Overlay'>
     </main>
   )
 }
 
 export default Overlay;
+
+// 1 Overlay 400svh bezaram
+// 2 import ha 
+// contniue 

@@ -1,29 +1,5 @@
-@font-face {
-  font-family:'Montserrat';
-  src: url('./fonts/Montserrat-Light.woff2');
-  font-weight: 300;
-  font-display: swap;
-}
-@font-face {
-  font-family:'Montserrat';
-  src: url('./fonts/Montserrat-Medium.woff2');
-  font-weight: 500;
-  font-display: swap;
-}
-@font-face {
-  font-family:'Montserrat';
-  src: url('./fonts/Montserrat-Bold.woff2');
-  font-weight: 700;
-  font-display: swap;
-}
-@font-face {
-  font-family:'Montserrat';
-  src: url('./fonts/Montserrat-Black.woff2');
-  font-weight: 900;
-  font-display: swap;
-}
 :root{
-  --font-family : 'Montserrat' , sans-serif ;
+  --font-family : sans-serif ;
   --color-bg : #1d1d1d;
   --text-color-main : #F5F5F5;
   --text-color-muted : #dddddd;
@@ -114,7 +90,7 @@ button{
 span {
   display: inline-block;
 }
-.canvasWarpper{
+.canvas-warpper{
   position: fixed;
   top: 0;
   left: 0;
