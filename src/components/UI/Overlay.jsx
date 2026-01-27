@@ -2,10 +2,10 @@
 import './Overlay.css';
 
 
-function Overlay({ref}){
+function Overlay(){
 
   return(
-    <main ref={ref} id='Overlay'>
+    <main id='Overlay'>
     </main>
   )
 }

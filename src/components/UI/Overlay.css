@@ -5,7 +5,7 @@
   pointer-events: none;
   display: flex;
   flex-direction: column;
-  height: 400svh;
+  height: 100svh;
 }
 section{
   width: 100%;
