@@ -5,9 +5,11 @@ A cutting-edge procedural material experiment built with **React Three Fiber** a
 This project demonstrates the power of **WebGPU-ready nodes** (`MeshPhysicalNodeMaterial`) to create complex, interactive materials that combine vertex displacement, volumetric attenuation, and chromatic dispersion.
 
 
-![Alchemist Sphere 3](./shots/image.png)
-![Alchemist Sphere 2](./shots/image-1.png)
-![Alchemist Sphere 1](./shots/image-2.png)
+<p align="center">
+  <img src="./public/shots/image.png"  width="32%">
+  <img src="./public/shots/image-1.png"  width="32%">
+  <img src="./public/shots/image-2.png" width="32%">
+</p>
 
 ## ✨ Features
 
@@ -21,13 +23,13 @@ This project demonstrates the power of **WebGPU-ready nodes** (`MeshPhysicalNode
 
 The sphere comes with predefined states accessible via the control panel:
 
-| Preset | Description | 
-| :--- | :--- | :--- |
-| **🏆 Liquid Gold** | High metalness, warm base, slight wave deformation. | 
-| **💎 Royal Diamond** | High refractive index (IOR 2.4), chromatic dispersion. | 
-| **🧊 Frosted Ice** | Rough transmission with deep blue attenuation. 
-| **🕸️ Cyber Matrix** | High-frequency noise, digital wireframe, neon emission. | 
-| **🌋 Molten Core** | Dark rough rock with glowing internal emissive wireframe. | 
+| Preset | Description | <br>
+| :--- | :--- | :--- | <br>
+| **🏆 Liquid Gold** | High metalness, warm base, slight wave deformation. | <br>
+| **💎 Royal Diamond** | High refractive index (IOR 2.4), chromatic dispersion. | <br>
+| **🧊 Frosted Ice** | Rough transmission with deep blue attenuation. | <br>
+| **🕸️ Cyber Matrix** | High-frequency noise, digital wireframe, neon emission. | <br>
+| **🌋 Molten Core** | Dark rough rock with glowing internal emissive wireframe. | <br>
 
 
 ## 🛠️ Tech Stack
