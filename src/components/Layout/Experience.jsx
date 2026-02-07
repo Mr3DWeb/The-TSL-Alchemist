@@ -1,7 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import Overlay from "../UI/Overlay";
 import Scene from "../Canvas/Scene";
 import { WebGPURenderer } from "three/webgpu";
 
@@ -23,8 +22,6 @@ function Experience(){
         <Scene />
       </Canvas>
     </div>
-
-    <Overlay />
     </>
   )
 }
