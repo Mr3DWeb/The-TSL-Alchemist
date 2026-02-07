@@ -13,9 +13,6 @@ section{
   display: flex;
   padding: 40px;
 }
-div {
-  padding: 10px
-}
 h1 , h2 , h3 , h4 ,  p , button , a , span {
   pointer-events: auto;
 }

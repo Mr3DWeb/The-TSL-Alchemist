@@ -1,7 +1,19 @@
 import { OrbitControls } from "@react-three/drei";
 import AlchemistSphere from "../Canvas/AlchemistSphere";
+import { Environment } from "@react-three/drei";
+import { useControls } from "leva";
 
 function Scene(){
+
+   const envControls = useControls(
+  'Environment Settings',
+  {
+    bgVisible: { value: false, label: 'Background Visible' },
+    bgBlur: { value: 0.5, min: 0, max: 1, step: 0.05, label: 'Background Blur' }
+  },
+  { collapsed: true }
+)
+
   return(
   <>
   <OrbitControls makeDefault/>
@@ -19,6 +31,11 @@ function Scene(){
   </mesh>
 
   
+  <Environment 
+  files={"/hdri/potsdamer_platz_1k.hdr"} 
+  background={envControls.bgVisible}
+  blur={envControls.bgBlur}
+  />
   </>
   )
 }
