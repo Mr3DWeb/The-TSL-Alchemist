@@ -32,7 +32,7 @@ function Scene(){
 
   
   <Environment 
-  files={"/hdri/potsdamer_platz_1k.hdr"} 
+  files={"./hdri/potsdamer_platz_1k.hdr"} 
   background={envControls.bgVisible}
   blur={envControls.bgBlur}
   />
